@@ -1,0 +1,29 @@
+.header {
+    padding: 10px 16px;
+    background: white;
+    background-image: initial;
+    background-position-x: fixed;
+    background-position-y: fixed;
+    background-size: initial;
+    background-repeat-x: fixed;
+    background-repeat-y: fixed;
+    background-attachment: absolute;
+    background-origin: initial;
+    background-clip: fixed;
+    background-color: white;
+    color: black;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}

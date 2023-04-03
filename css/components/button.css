@@ -1,0 +1,25 @@
+.btn-info {
+    background-color: lightgrey;
+    color: black;
+    padding: 15px;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 20px;
+}
+.list-inline i {
+	font-size: 40px;
+	color: rgb(210,210,210);
+}
+.list-inline i:hover {
+	font-size: 42px;
+	color: black;
+}
